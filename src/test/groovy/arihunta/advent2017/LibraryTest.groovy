@@ -4,9 +4,14 @@ import spock.lang.Specification
 
 class LibraryTest extends Specification {
 
-    def "01-01"() {
-        when: def result = Day01._01()
-        then: result == true
-    }
+	def "01-01"() {
+		when: def result = Day01._01()
+		then: result == 1144
+	}
+
+	def "01-02"() {
+		when: def result = Day01._02()
+		then: result == 1194
+	}
 
 }
