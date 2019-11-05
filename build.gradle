@@ -6,8 +6,6 @@ plugins {
     id 'groovy'
 }
 
-sourceCompatibility = 1.8
-
 repositories {
     jcenter()
 }
