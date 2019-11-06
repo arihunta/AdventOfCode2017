@@ -54,4 +54,14 @@ class LibraryTest extends Specification {
 		then: result == 21841249
 	}
 
+	def "06-01"() {
+		when: def result = Day06._01()
+		then: result == 5042
+	}
+
+	def "06-02"() {
+		when: def result = Day06._02()
+		then: result == 1086
+	}
+
 }
