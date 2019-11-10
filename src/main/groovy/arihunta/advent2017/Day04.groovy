@@ -6,7 +6,7 @@ import com.google.common.io.Resources
 
 class Day04 {
 
-	static int _01() {
+	static def _01() {
 
 		def validPhrases = 0
 
@@ -21,7 +21,7 @@ class Day04 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		def validPhrases = 0
 

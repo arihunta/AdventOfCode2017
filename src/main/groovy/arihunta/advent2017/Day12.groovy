@@ -22,8 +22,6 @@ class Day12 {
 			[(it.group(1).toInteger()): it.group(2).split(", ").collect { Integer.parseInt(it) }]
 		}
 
-		println "$edges"
-
 		final Queue<Integer> toVisit = new LinkedList<>()
 		final Set<Integer> visited = new HashSet()
 
@@ -50,8 +48,6 @@ class Day12 {
 			it.matches()
 			[(it.group(1).toInteger()): it.group(2).split(", ").collect { Integer.parseInt(it) }]
 		}
-
-		println "$edges"
 
 		final Set<Integer> allPrograms = IntStream.range(0, edges.size()).collect()
 		final Queue<Integer> toVisit = new LinkedList<>()

@@ -6,7 +6,7 @@ import com.google.common.io.Resources
 
 class Day01 {
 
-	static int _01() {
+	static def _01() {
 
 		def numbers = Resources.toString(Resources.getResource("01"), StandardCharsets.UTF_8).replace('\n', '')
 				.chars
@@ -26,7 +26,7 @@ class Day01 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		def numbers = Resources.toString(Resources.getResource("01"), StandardCharsets.UTF_8).replace('\n', '')
 				.chars

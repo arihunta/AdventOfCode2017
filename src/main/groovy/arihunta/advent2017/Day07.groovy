@@ -43,7 +43,7 @@ class Day07 {
 
 	}
 
-	static String _01() {
+	static def _01() {
 
 		def childNodes = nodes.values().collect { it.children }.flatten().toUnique()
 
@@ -54,7 +54,7 @@ class Day07 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		List<String> childNodes = nodes.collect { it.value.children }.flatten().toUnique()
 		List<String> nodeIds = nodes.collect { it.key }
@@ -73,7 +73,6 @@ class Day07 {
 				acc[nodes[val].subWeight] = acc[nodes[val].subWeight] != null ? acc[nodes[val].subWeight] + 1 : 1
 				acc
 			}
-			println "$blah"
 			def oddKeys = blah.dropWhile { it.value != 1 }
 			.collect { it.key }
 
@@ -81,10 +80,8 @@ class Day07 {
 				Integer oddWeight = oddKeys[0]
 				parent = cursor
 				cursor = nodes[cursor.children.dropWhile { nodes[it].subWeight != oddWeight }[0]]
-				println "oddwitgh is ${cursor.id}"
 			}
 			else {
-				println "colprit is ${cursor.id}"
 				break
 			}
 

@@ -12,7 +12,7 @@ class Day08 {
 
 	static final Pattern instruction = Pattern.compile("(\\w+) (inc|dec) (-?\\d+) if (\\w+) (<|>|==|!=|<=|>=) (-?\\d+)")
 
-	static int _01() {
+	static def _01() {
 
 		final Map<String, Integer> registers = new HashMap<>()
 
@@ -56,7 +56,7 @@ class Day08 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		final Map<String, Integer> registers = new HashMap<>()
 

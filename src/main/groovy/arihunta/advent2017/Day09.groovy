@@ -10,7 +10,7 @@ class Day09 {
 
 	static final String input = Resources.toString(Resources.getResource("09"), StandardCharsets.UTF_8).trim().replace('\n', '')
 
-	static int _01() {
+	static def _01() {
 
 		final String slim = input.replaceAll("!.", "").replaceAll("<.*?>", "").replaceAll(",", "")
 
@@ -30,7 +30,7 @@ class Day09 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		final Matcher matcher = Pattern.compile("<(.*?)>").matcher(input.replaceAll("!.", ""))
 

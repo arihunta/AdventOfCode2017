@@ -6,7 +6,7 @@ import com.google.common.io.Resources
 
 class Day05 {
 
-	static int _01() {
+	static def _01() {
 
 		final int[] jumps = Resources.readLines(Resources.getResource("05"), StandardCharsets.UTF_8)
 				.collect { it.toInteger() }
@@ -29,7 +29,7 @@ class Day05 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		final int[] jumps = Resources.readLines(Resources.getResource("05"), StandardCharsets.UTF_8)
 				.collect { it.toInteger() }

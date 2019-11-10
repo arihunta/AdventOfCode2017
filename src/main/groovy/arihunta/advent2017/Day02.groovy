@@ -6,7 +6,7 @@ import com.google.common.io.Resources
 
 class Day02 {
 
-	static int _01() {
+	static def _01() {
 
 		Resources.readLines(Resources.getResource("02"), StandardCharsets.UTF_8)
 				.collect { it.split('\t').collect { Integer.parseInt(it) } }
@@ -15,7 +15,7 @@ class Day02 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		Resources.readLines(Resources.getResource("02"), StandardCharsets.UTF_8)
 				.collect {

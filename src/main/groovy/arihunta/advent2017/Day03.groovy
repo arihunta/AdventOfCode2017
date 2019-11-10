@@ -4,7 +4,7 @@ class Day03 {
 
 	static final def input = 289326
 
-	static int _01() {
+	static def _01() {
 
 		def directions = [ [1, 0], [0, 1], [-1, 0], [0, -1] ];
 
@@ -34,7 +34,7 @@ class Day03 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		def directions = [ [1, 0], [0, 1], [-1, 0], [0, -1] ];
 

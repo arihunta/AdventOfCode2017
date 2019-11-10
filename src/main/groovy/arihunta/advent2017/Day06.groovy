@@ -6,7 +6,7 @@ import com.google.common.io.Resources
 
 class Day06 {
 
-	static int _01() {
+	static def _01() {
 
 		def banks = Resources.toString(Resources.getResource("06"), StandardCharsets.UTF_8)
 				.split('\t')
@@ -42,7 +42,7 @@ class Day06 {
 
 	}
 
-	static int _02() {
+	static def _02() {
 
 		def banks = Resources.toString(Resources.getResource("06"), StandardCharsets.UTF_8)
 				.split('\t')
