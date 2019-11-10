@@ -9,8 +9,6 @@ class Day16 {
 
 	static final def input = Resources.toString(Resources.getResource("16"), StandardCharsets.UTF_8).split(",")
 
-
-
 	static def _01() {
 
 		final int numProgs = 16
