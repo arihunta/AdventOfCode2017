@@ -11,7 +11,7 @@ class Day19Test extends Specification {
 
 	def "19-02"() {
 		when: def result = Day19._02()
-		then: result == 17543
+		then: result == 17544
 	}
 
 }
